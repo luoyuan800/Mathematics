@@ -18,7 +18,7 @@ public class Cos {
         return Math.cos(Math.toRadians(angel));
     }
     
-    public static double cis(int angel){
+    public static double cos(int angel){
         return cos((double)angel);
     }
 
