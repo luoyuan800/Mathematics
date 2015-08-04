@@ -10,13 +10,16 @@
 package triangle.cos;
 
 public class Cos {
+
+    /**
+     * 根据角度求cos值
+     **/
     public static double cos(double angel){
         return Math.cos(Math.toRadians(angel));
     }
-
-    public static int cos(int angel){
-        Double cos = cos((double)angel);
-        return cos.intValue();
+    
+    public static double cis(int angel){
+        return cos((double)angel);
     }
 
     public static void main(String...args){
