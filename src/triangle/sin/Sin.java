@@ -10,17 +10,23 @@
 package triangle.sin;
 
 public class Sin {
-    public static int sin(int angel) {
-        Long round = Math.round(Math.sin((Math.toRadians(angel) * 100d)));
-        return round.intValue();
+    /**
+     * 根据角度求sin值
+     * @param angel 浮点型的角度
+     **/
+    public static double sin(int angel) {
+        return Math.sin(Math.toRadians(angel));
     }
 
+    /**
+     * 根据角度求sin值
+     * @param angel 浮点型的角度
+     **/
     public static double sin(double angel) {
-        Double round = Math.sin((Math.toRadians(angel)));
-        return round;
+        return Math.sin((Math.toRadians(angel)));
     }
 
     public static void main(String... args) {
-        System.out.println(sin(45d));
+        System.out.println(sin(45));
     }
 }

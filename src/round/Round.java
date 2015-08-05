@@ -71,7 +71,7 @@ public class Round {
     /**
      * 四舍五入成整数
      * @param value 含小数位的数值
-     * @return 整数
+     * @return 短整数
      */
     public static int roundToInt(double value){
         return Integer.parseInt(bigDecimalRound(value, 0));
@@ -80,7 +80,7 @@ public class Round {
     /**
      * 四舍五入成整数
      * @param value 含小数位的数值
-     * @return 整数
+     * @return 长整数
      */
     public static long roundToLong(double value){
         return Long.parseLong(bigDecimalRound(value, 0));
