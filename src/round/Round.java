@@ -70,23 +70,25 @@ public class Round {
 
     /**
      * 四舍五入成整数
+     *
      * @param value 含小数位的数值
      * @return 短整数
      */
-    public static int roundToInt(double value){
+    public static int roundToInt(double value) {
         return Integer.parseInt(bigDecimalRound(value, 0));
     }
 
     /**
      * 四舍五入成整数
+     *
      * @param value 含小数位的数值
      * @return 长整数
      */
-    public static long roundToLong(double value){
+    public static long roundToLong(double value) {
         return Long.parseLong(bigDecimalRound(value, 0));
     }
 
-    public static void main(String...args){
+    public static void main(String... args) {
         System.out.println(DecimalFormatRound(11.3333, 0));
     }
 }
