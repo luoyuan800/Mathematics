@@ -18,8 +18,9 @@ public class BottomWidth {
     /**
      * 一只腰长，顶角度数，求等腰三角形底边长度
      * 返回int类型不精确的数据
+     *
      * @param isosceles 腰边长
-     * @param angle 顶角度数
+     * @param angle     顶角度数
      * @return 底边长度
      */
     public static int isoscelesTriangleBottomWidth(int isosceles, int angle) {
@@ -31,8 +32,9 @@ public class BottomWidth {
     /**
      * 一只腰长，顶角度数，求等腰三角形底边长度
      * 返回int类型不精确的数据
+     *
      * @param isosceles 腰边长
-     * @param angle 顶角度数
+     * @param angle     顶角度数
      * @return 底边长度
      */
     public static double isoscelesTriangleBottomWidth(double isosceles, double angle) {
