@@ -11,7 +11,7 @@ package equation;
 
 public class QuadraticOfOneVariable {
     /**
-     *求解一元二次方程的根
+     * 求解一元二次方程的根
      * a<i>x</i><sup>2</sup> + b<i>x</i> + c =0<br>
      * <i>x</i> = [-b±√(b<i>x</i><sup>2</sup>-4ac)]/2a
      *
@@ -21,7 +21,7 @@ public class QuadraticOfOneVariable {
      * @return [-b+√(b<i>x</i><sup>2</sup>-4ac)]/2a, [-b-√(b<i>x</i><sup>2</sup>-4ac)]/2a
      */
     public static double[] solve(double a, double b, double c) {
-        if(a==0) return new double[]{};//一次方程
+        if (a == 0) return new double[]{};//一次方程
         double discriminant = b * b - 4 * a * c;
         if (discriminant < 0) return new double[]{};//无解
         double discSqrt = Math.sqrt(discriminant);
