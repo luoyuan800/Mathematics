@@ -1,13 +1,13 @@
 .classpath
-.project
-*.iml
-bin/*/*.*
-.idea/*/*.*
-.idea/*.*
-.settings/*.*
-bin/*
-build/*
-build/*/*
-.gradle/*/*
-out/*
-out/*/*
+       .project
+       *.iml
+       bin/*/*.*
+       .idea/*/*.*
+       .idea/*.*
+       .settings/*.*
+       bin/*
+       build/*
+       build/*/*
+       .gradle/*/*
+       out/*
+       out/*/*

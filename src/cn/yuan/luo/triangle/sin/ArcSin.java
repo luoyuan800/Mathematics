@@ -7,7 +7,7 @@
  * ALL RIGHTS RESERVED.
 */
 
-package triangle.sin;
+package cn.yuan.luo.triangle.sin;
 
 public class ArcSin {
     /**

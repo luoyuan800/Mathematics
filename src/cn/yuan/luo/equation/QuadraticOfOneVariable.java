@@ -7,7 +7,7 @@
  * ALL RIGHTS RESERVED.
 */
 
-package equation;
+package cn.yuan.luo.equation;
 
 public class QuadraticOfOneVariable {
     /**

@@ -8,7 +8,7 @@
  * 求等腰三角形的底边长度
 */
 
-package triangle.isosceles;
+package cn.yuan.luo.triangle.isosceles;
 
 import static java.lang.Math.cos;
 import static java.lang.Math.sqrt;

@@ -7,9 +7,9 @@
  * ALL RIGHTS RESERVED.
 */
 
-package circle;
+package cn.yuan.luo.circle;
 
-import round.Round;
+import cn.yuan.luo.round.Round;
 
 import static java.lang.Math.cos;
 import static java.lang.Math.sin;
@@ -17,7 +17,7 @@ import static java.lang.Math.toRadians;
 
 public class Coordinate {
     /**
-     * 计算圆上任意一点的坐标，根据圆心坐标，半径， 和X正轴的圆心夹角。
+     * 给定夹角，计算圆上任意一点的坐标，根据圆心坐标，半径， 和X正轴的圆心夹角。
      *
      * @param x     圆心坐标x
      * @param y     圆心坐标y

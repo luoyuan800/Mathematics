@@ -7,7 +7,7 @@
  * ALL RIGHTS RESERVED.
 */
 
-package triangle.cos;
+package cn.yuan.luo.triangle.cos;
 
 public class ArcCos {
     /**
